@@ -1,0 +1,150 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        position: relative;
+        height: 7rem;
+        width: 100vw;
+    }
+
+    #vlabs {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding-top: .5rem;
+        position: relative;
+    }
+
+    p {
+        padding: 2rem;
+        font-family: verdana;
+    }
+
+    #logo {
+        position: absolute;
+        top: .5rem;
+        right: .9rem;
+    }
+
+    .line {
+        width: 100%;
+        height: 1.6rem;
+        background-color: #212529;
+    }
+
+    .hero {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #container {
+        border: 1px solid black;
+        border-top: none;
+        height: 600px;
+        width: 800px;
+        background-color: #dce5ec;
+        position: relative;
+    }
+
+    #container:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .projection {
+        text-align: center;
+        padding-top: 5px;
+        height: 2.5rem;
+        letter-spacing: .1em;
+        font-size: 1.6rem;
+        background-color: rgb(20,117,228);
+        color: rgb(255, 255, 255);
+    }
+
+    .texts {
+        font-size: 14px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 200px;
+    }
+
+    #btn1 {
+        font-size: 15px;
+        font-family: inherit;
+        height: 2rem;
+        width: 6.3rem;
+        background-color: #2150a0;
+        color: white;
+        position: absolute;
+        top: 350px;
+        left: 680px;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    /* our css code of container1 ends here thank you */
+
+    .hide{
+        display: none;
+    }
+
+    #container2{
+        border: 1px solid black;
+        border-top: none;
+        height: 600px;
+        width: 800px;
+        background-color: #dce5ec;
+        position: relative;
+        /* padding-left: 70px; */
+
+    }
+
+    .projection2 {
+        text-align: center;
+        height: 2.5rem;
+        letter-spacing: .1em;
+        font-size: 1.6rem;
+        background-color:rgb(20,117,228);
+        color: white;
+    }
+
+
+    ul{
+        position: absolute;
+        top: 80px;
+        left: 70px;
+    }
+
+    #container2:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    #container2 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    }
+    
+    #container2 li a:hover{
+        color: rgb(180, 2, 2);
+    }
+
+    #btn2{
+        position: absolute;
+        top: 550px;
+        left: 50px;
+        font-size: 15px;
+        font-family: inherit;
+        height: 2rem;
+        width: 6.3rem;
+        background-color: #2150a0;
+        color: white;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
